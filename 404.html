@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script>
+      // Redirige a index.html manteniendo la ruta en el hash para que React Router la lea
+      var path = window.location.pathname;
+      var search = window.location.search;
+      var hash = window.location.hash;
+      window.location.replace("/quiz-app/?" + "p=" + path + "&" + search + hash);
+    </script>
+  </head>
+  <body></body>
+</html>
