@@ -1,0 +1,441 @@
+{
+  "subjects": [
+    { "id": "cien_nat", "name": "Ciencias Naturales" },
+    { "id": "cult_gen", "name": "Cultura General" }
+  ],
+  "levels": [
+    { "id": "basico_cn", "name": "Básico", "subjectId": "cien_nat" },
+    { "id": "inter_cn", "name": "Intermedio", "subjectId": "cien_nat" },
+    { "id": "basico_cg", "name": "Básico", "subjectId": "cult_gen" },
+    { "id": "inter_cg", "name": "Intermedio", "subjectId": "cult_gen" }
+  ],
+  "topics": [
+    {
+      "id": "bio",
+      "name": "Biología",
+      "subjectId": "cien_nat",
+      "levelId": "basico_cn"
+    },
+    {
+      "id": "fisica",
+      "name": "Física",
+      "subjectId": "cien_nat",
+      "levelId": "inter_cn"
+    },
+    {
+      "id": "historia",
+      "name": "Historia",
+      "subjectId": "cult_gen",
+      "levelId": "basico_cg"
+    },
+    {
+      "id": "geografia",
+      "name": "Geografía",
+      "subjectId": "cult_gen",
+      "levelId": "inter_cg"
+    }
+  ],
+  "questions": [
+    {
+      "subjectId": "cien_nat",
+      "levelId": "basico_cn",
+      "topicId": "bio",
+      "text": "¿Cuál es la función principal de las raíces en las plantas?",
+      "options": [
+        "Absorber agua y nutrientes",
+        "Producir semillas",
+        "Realizar la fotosíntesis",
+        "Transportar oxígeno"
+      ],
+      "correctAnswer": "Absorber agua y nutrientes"
+    },
+    {
+      "subjectId": "cien_nat",
+      "levelId": "basico_cn",
+      "topicId": "bio",
+      "text": "¿Qué orgánulo celular es conocido como la 'central energética'?",
+      "options": ["Mitocondria", "Núcleo", "Cloroplasto", "Ribosoma"],
+      "correctAnswer": "Mitocondria"
+    },
+    {
+      "subjectId": "cien_nat",
+      "levelId": "basico_cn",
+      "topicId": "bio",
+      "text": "¿Qué pigmento es responsable del color verde en las plantas?",
+      "options": ["Clorofila", "Caroteno", "Melanina", "Hemoglobina"],
+      "correctAnswer": "Clorofila"
+    },
+    {
+      "subjectId": "cien_nat",
+      "levelId": "basico_cn",
+      "topicId": "bio",
+      "text": "¿Cuál es el proceso por el que las plantas convierten la luz en energía?",
+      "options": [
+        "Fotosíntesis",
+        "Respiración",
+        "Fermentación",
+        "Transpiración"
+      ],
+      "correctAnswer": "Fotosíntesis"
+    },
+    {
+      "subjectId": "cien_nat",
+      "levelId": "basico_cn",
+      "topicId": "bio",
+      "text": "¿Qué tipo de sangre tiene la mayoría de las personas?",
+      "options": ["O+", "A+", "B+", "AB+"],
+      "correctAnswer": "O+"
+    },
+    {
+      "subjectId": "cien_nat",
+      "levelId": "basico_cn",
+      "topicId": "bio",
+      "text": "¿Cuál es el órgano principal del sistema circulatorio?",
+      "options": ["Corazón", "Pulmones", "Riñones", "Estómago"],
+      "correctAnswer": "Corazón"
+    },
+    {
+      "subjectId": "cien_nat",
+      "levelId": "basico_cn",
+      "topicId": "bio",
+      "text": "¿Qué sistema del cuerpo humano controla las respuestas y movimientos?",
+      "options": [
+        "Sistema nervioso",
+        "Sistema digestivo",
+        "Sistema circulatorio",
+        "Sistema respiratorio"
+      ],
+      "correctAnswer": "Sistema nervioso"
+    },
+    {
+      "subjectId": "cien_nat",
+      "levelId": "basico_cn",
+      "topicId": "bio",
+      "text": "¿Cuál es el componente principal del aire que respiramos?",
+      "options": ["Nitrógeno", "Oxígeno", "Dióxido de carbono", "Hidrógeno"],
+      "correctAnswer": "Nitrógeno"
+    },
+    {
+      "subjectId": "cien_nat",
+      "levelId": "basico_cn",
+      "topicId": "bio",
+      "text": "¿Qué tipo de célula tiene núcleo definido?",
+      "options": ["Eucariota", "Procariota", "Bacteriana", "Virica"],
+      "correctAnswer": "Eucariota"
+    },
+    {
+      "subjectId": "cien_nat",
+      "levelId": "basico_cn",
+      "topicId": "bio",
+      "text": "¿Cuál es el órgano que filtra la sangre en el cuerpo?",
+      "options": ["Riñón", "Hígado", "Pulmón", "Corazón"],
+      "correctAnswer": "Riñón"
+    },
+
+    
+    {
+      "subjectId": "cien_nat",
+      "levelId": "inter_cn",
+      "topicId": "fisica",
+      "text": "¿Qué es la velocidad?",
+      "options": [
+        "La distancia recorrida por unidad de tiempo",
+        "El tiempo que tarda un objeto en caer",
+        "La fuerza que actúa sobre un objeto",
+        "La energía almacenada"
+      ],
+      "correctAnswer": "La distancia recorrida por unidad de tiempo"
+    },
+    {
+      "subjectId": "cien_nat",
+      "levelId": "inter_cn",
+      "topicId": "fisica",
+      "text": "¿Cuál es la unidad de medida de la fuerza?",
+      "options": ["Newton", "Joule", "Watt", "Pascal"],
+      "correctAnswer": "Newton"
+    },
+    {
+      "subjectId": "cien_nat",
+      "levelId": "inter_cn",
+      "topicId": "fisica",
+      "text": "¿Qué ley de Newton explica la inercia?",
+      "options": [
+        "Primera Ley",
+        "Segunda Ley",
+        "Tercera Ley",
+        "Ley de Gravitación"
+      ],
+      "correctAnswer": "Primera Ley"
+    },
+    {
+      "subjectId": "cien_nat",
+      "levelId": "inter_cn",
+      "topicId": "fisica",
+      "text": "¿Qué es la energía cinética?",
+      "options": [
+        "Energía del movimiento",
+        "Energía almacenada",
+        "Energía térmica",
+        "Energía potencial"
+      ],
+      "correctAnswer": "Energía del movimiento"
+    },
+    {
+      "subjectId": "cien_nat",
+      "levelId": "inter_cn",
+      "topicId": "fisica",
+      "text": "¿Cuál es la fórmula de la velocidad promedio?",
+      "options": [
+        "Distancia / Tiempo",
+        "Fuerza / Masa",
+        "Masa * Aceleración",
+        "Trabajo / Tiempo"
+      ],
+      "correctAnswer": "Distancia / Tiempo"
+    },
+    {
+      "subjectId": "cien_nat",
+      "levelId": "inter_cn",
+      "topicId": "fisica",
+      "text": "¿Qué instrumento se usa para medir la presión atmosférica?",
+      "options": ["Barómetro", "Termómetro", "Higrómetro", "Anemómetro"],
+      "correctAnswer": "Barómetro"
+    },
+    {
+      "subjectId": "cien_nat",
+      "levelId": "inter_cn",
+      "topicId": "fisica",
+      "text": "¿Qué tipo de energía tiene un objeto en reposo debido a su posición?",
+      "options": [
+        "Energía potencial",
+        "Energía cinética",
+        "Energía térmica",
+        "Energía química"
+      ],
+      "correctAnswer": "Energía potencial"
+    },
+    {
+      "subjectId": "cien_nat",
+      "levelId": "inter_cn",
+      "topicId": "fisica",
+      "text": "¿Qué partícula subatómica tiene carga positiva?",
+      "options": ["Protón", "Electrón", "Neutrón", "Fotón"],
+      "correctAnswer": "Protón"
+    },
+    {
+      "subjectId": "cien_nat",
+      "levelId": "inter_cn",
+      "topicId": "fisica",
+      "text": "¿Cuál es la unidad de medida de la energía?",
+      "options": ["Joule", "Newton", "Watt", "Voltio"],
+      "correctAnswer": "Joule"
+    },
+    {
+      "subjectId": "cien_nat",
+      "levelId": "inter_cn",
+      "topicId": "fisica",
+      "text": "¿Qué fenómeno explica la propagación de luz y sonido?",
+      "options": ["Ondas", "Partículas", "Campos eléctricos", "Radiación"],
+      "correctAnswer": "Ondas"
+    },
+
+    
+    {
+      "subjectId": "cult_gen",
+      "levelId": "basico_cg",
+      "topicId": "historia",
+      "text": "¿Quién fue Cristóbal Colón?",
+      "options": [
+        "Un navegante y explorador",
+        "Un rey español",
+        "Un científico",
+        "Un pintor"
+      ],
+      "correctAnswer": "Un navegante y explorador"
+    },
+    {
+      "subjectId": "cult_gen",
+      "levelId": "basico_cg",
+      "topicId": "historia",
+      "text": "¿En qué año se firmó la independencia de Estados Unidos?",
+      "options": ["1776", "1492", "1810", "1945"],
+      "correctAnswer": "1776"
+    },
+    {
+      "subjectId": "cult_gen",
+      "levelId": "basico_cg",
+      "topicId": "historia",
+      "text": "¿Qué civilización construyó las pirámides de Egipto?",
+      "options": ["Los egipcios", "Los romanos", "Los mayas", "Los griegos"],
+      "correctAnswer": "Los egipcios"
+    },
+    {
+      "subjectId": "cult_gen",
+      "levelId": "basico_cg",
+      "topicId": "historia",
+      "text": "¿Quién fue Napoleón Bonaparte?",
+      "options": [
+        "Un líder militar francés",
+        "Un emperador romano",
+        "Un presidente de EE.UU.",
+        "Un filósofo griego"
+      ],
+      "correctAnswer": "Un líder militar francés"
+    },
+    {
+      "subjectId": "cult_gen",
+      "levelId": "basico_cg",
+      "topicId": "historia",
+      "text": "¿Qué evento inició la Segunda Guerra Mundial?",
+      "options": [
+        "La invasión a Polonia",
+        "El ataque a Pearl Harbor",
+        "La Revolución Francesa",
+        "La caída del Muro de Berlín"
+      ],
+      "correctAnswer": "La invasión a Polonia"
+    },
+    {
+      "subjectId": "cult_gen",
+      "levelId": "basico_cg",
+      "topicId": "historia",
+      "text": "¿Qué civilización antigua habitaba Grecia?",
+      "options": ["Los griegos", "Los egipcios", "Los aztecas", "Los vikingos"],
+      "correctAnswer": "Los griegos"
+    },
+    {
+      "subjectId": "cult_gen",
+      "levelId": "basico_cg",
+      "topicId": "historia",
+      "text": "¿Quién fue Cleopatra?",
+      "options": [
+        "Reina de Egipto",
+        "Emperatriz romana",
+        "Faraona maya",
+        "Filósofa griega"
+      ],
+      "correctAnswer": "Reina de Egipto"
+    },
+    {
+      "subjectId": "cult_gen",
+      "levelId": "basico_cg",
+      "topicId": "historia",
+      "text": "¿Cuál es la capital de Francia?",
+      "options": ["París", "Londres", "Roma", "Madrid"],
+      "correctAnswer": "París"
+    },
+    {
+      "subjectId": "cult_gen",
+      "levelId": "basico_cg",
+      "topicId": "historia",
+      "text": "¿Qué invento hizo Thomas Edison?",
+      "options": [
+        "La bombilla eléctrica",
+        "El teléfono",
+        "El automóvil",
+        "El avión"
+      ],
+      "correctAnswer": "La bombilla eléctrica"
+    },
+    {
+      "subjectId": "cult_gen",
+      "levelId": "basico_cg",
+      "topicId": "historia",
+      "text": "¿Qué río atraviesa Egipto?",
+      "options": ["Nilo", "Amazonas", "Mississippi", "Yangtsé"],
+      "correctAnswer": "Nilo"
+    },
+
+    
+    {
+      "subjectId": "cult_gen",
+      "levelId": "inter_cg",
+      "topicId": "geografia",
+      "text": "¿Cuál es el continente más grande?",
+      "options": ["Asia", "África", "América", "Europa"],
+      "correctAnswer": "Asia"
+    },
+    {
+      "subjectId": "cult_gen",
+      "levelId": "inter_cg",
+      "topicId": "geografia",
+      "text": "¿Cuál es el país con más habitantes?",
+      "options": ["China", "India", "Estados Unidos", "Brasil"],
+      "correctAnswer": "China"
+    },
+    {
+      "subjectId": "cult_gen",
+      "levelId": "inter_cg",
+      "topicId": "geografia",
+      "text": "¿Qué océano es el más profundo?",
+      "options": [
+        "Océano Pacífico",
+        "Océano Atlántico",
+        "Océano Índico",
+        "Océano Ártico"
+      ],
+      "correctAnswer": "Océano Pacífico"
+    },
+    {
+      "subjectId": "cult_gen",
+      "levelId": "inter_cg",
+      "topicId": "geografia",
+      "text": "¿Dónde está el desierto del Sahara?",
+      "options": ["África", "Asia", "Australia", "América"],
+      "correctAnswer": "África"
+    },
+    {
+      "subjectId": "cult_gen",
+      "levelId": "inter_cg",
+      "topicId": "geografia",
+      "text": "¿Cuál es la capital de Australia?",
+      "options": ["Canberra", "Sídney", "Melbourne", "Brisbane"],
+      "correctAnswer": "Canberra"
+    },
+    {
+      "subjectId": "cult_gen",
+      "levelId": "inter_cg",
+      "topicId": "geografia",
+      "text": "¿Qué cordillera es la más larga del mundo?",
+      "options": ["Los Andes", "Los Alpes", "Los Himalayas", "Las Rocosas"],
+      "correctAnswer": "Los Andes"
+    },
+    {
+      "subjectId": "cult_gen",
+      "levelId": "inter_cg",
+      "topicId": "geografia",
+      "text": "¿Qué país tiene la mayor cantidad de islas?",
+      "options": ["Suecia", "Filipinas", "Indonesia", "Canadá"],
+      "correctAnswer": "Suecia"
+    },
+    {
+      "subjectId": "cult_gen",
+      "levelId": "inter_cg",
+      "topicId": "geografia",
+      "text": "¿Qué río es el más largo del mundo?",
+      "options": ["Amazonas", "Nilo", "Yangtsé", "Misisipi"],
+      "correctAnswer": "Amazonas"
+    },
+    {
+      "subjectId": "cult_gen",
+      "levelId": "inter_cg",
+      "topicId": "geografia",
+      "text": "¿Qué país está dividido en dos continentes?",
+      "options": ["Turquía", "Egipto", "España", "Rusia"],
+      "correctAnswer": "Turquía"
+    },
+    {
+      "subjectId": "cult_gen",
+      "levelId": "inter_cg",
+      "topicId": "geografia",
+      "text": "¿Qué es un archipiélago?",
+      "options": [
+        "Un grupo de islas",
+        "Una montaña alta",
+        "Un tipo de río",
+        "Un lago grande"
+      ],
+      "correctAnswer": "Un grupo de islas"
+    }
+  ]
+}
